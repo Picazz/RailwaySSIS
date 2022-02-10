@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "RailwaySSIS", "RailwaySSIS.dtproj", "{4FF36B3F-AD38-446E-B6BD-93E6F5EB83EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FF36B3F-AD38-446E-B6BD-93E6F5EB83EE}.Development|Default.ActiveCfg = Development
+		{4FF36B3F-AD38-446E-B6BD-93E6F5EB83EE}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA4CE99E-0752-43B3-B55E-53E0D2E646CF}
+	EndGlobalSection
+EndGlobal
