@@ -11,8 +11,8 @@
   DTS:LocaleID="1058"
   DTS:ObjectName="Execute machinery table to CSV file"
   DTS:PackageType="5"
-  DTS:VersionBuild="32"
-  DTS:VersionGUID="{CEDD6052-8C30-46FF-9DF9-FB4237332FCB}">
+  DTS:VersionBuild="33"
+  DTS:VersionGUID="{5697BA7A-A3AF-44C4-BA6D-45B014F58D29}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -57,7 +57,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1251"
-          DTS:ConnectionString="C:\Users\olegk\OneDrive\Study\DB\SSIS\railway\machinery_20220210.csv">
+          DTS:ConnectionString="C:\Users\olegk\OneDrive\Study\DB\SSIS\railway\machinery_20220211.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -201,7 +201,7 @@
       DTS:Namespace="File"
       DTS:ObjectName="destination">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Users\olegk\OneDrive\Study\DB\SSIS\railway\machinery_20220210.csv</DTS:VariableValue>
+        DTS:DataType="8">C:\Users\olegk\OneDrive\Study\DB\SSIS\railway\machinery_20220211.csv</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -221,7 +221,7 @@
       DTS:Namespace="File"
       DTS:ObjectName="name">
       <DTS:VariableValue
-        DTS:DataType="8">machinery_20220210.csv</DTS:VariableValue>
+        DTS:DataType="8">machinery_20220211.csv</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -243,7 +243,7 @@
       DTS:Namespace="File"
       DTS:ObjectName="stringifyDate">
       <DTS:VariableValue
-        DTS:DataType="8">_20220210</DTS:VariableValue>
+        DTS:DataType="8">_20220211</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -859,7 +859,7 @@
           Id="Package\Execute SQL Task"
           TopLeft="401,53" />
         <NodeLayout
-          Size="229,42"
+          Size="170,42"
           Id="Package\Export table machinery to CSV"
           TopLeft="154,153" />
         <NodeLayout
@@ -868,30 +868,18 @@
           TopLeft="157,52" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="245,94">
+          TopLeft="242,94">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="23.5,59"
+              EndConnector="0,59"
               Start="0,0"
-              End="23.5,51.5">
+              End="0,51.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.5"
-                    Point2="0,29.5"
-                    Point3="4,29.5" />
-                  <mssgle:LineSegment
-                    End="19.5,29.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="19.5,29.5"
-                    Point2="23.5,29.5"
-                    Point3="23.5,33.5" />
-                  <mssgle:LineSegment
-                    End="23.5,51.5" />
+                    End="0,51.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
